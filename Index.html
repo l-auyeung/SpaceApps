@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
 <HTML lang="en">
-    <!--test-->
 <Head>
     <Title>ARC SPACE TRAVEL AGENCY</Title>
 
@@ -9,224 +8,102 @@
 
     <!--Styles-->
     <style>
-
-        body
-        {
+        body {
             background-color: steelblue;
+            font-family: 'Lexan Era', sans-serif; /* Change the font */
+            text-align: center; /* Center all text */
         }
 
-        .main_head_div
-        {
+        .main_head_div {
             background-color: crimson;
-
         }
-        .main_head_div h1
-        {
-            text-align: center;
+
+        .main_head_div h1 {
             color: white;
-            font-family: sans-serif;
         }
 
-        .main_ad_div
-        {
+        .main_ad_div {
             margin: auto;
-            /*border: 5px black solid;*/
-            width:80%;
+            width: 80%;
             object-fit: contain;
-            
         }
-        .main_ad_div img
-        {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
 
+        .main_ad_div img {
+            display: block;
+            margin: 0 auto;
             border-radius: 10px;
         }
-        .main_ad_div p
-        {
+
+        .main_ad_div p {
             position: absolute;
             top: 50%;
             left: 50%;
         }
 
-        .main_button_div
-        {
+        .main_button_div {
             display: flex;
             justify-content: center;
             margin: auto;
             width: 10%;
             border: 1px black solid;
         }
-        .main_button_div input
-        {
+
+        .main_button_div input {
             margin-left: auto;
             margin-right: auto;
         }
 
-        .top_dest_div
-        {
-            text-align: left;
+        .top_dest_div {
+            text-align: center; /* Center the heading */
         }
 
-
-        .dest_box_div
-        {
+        .dest_box_div {
             margin: auto;
-            padding-left: 70px; /*This padding offsets the margin-left in dest_box_card_div*/
+            padding-left: 70px;
             border: 1px black solid;
-
             overflow-x: scroll;
             overflow-y: hidden;
-
-            -webkit-overflow-scrolling: touch; /*This may not be necessary, it is supposed to make the scrolling smooth*/
-
+            -webkit-overflow-scrolling: touch;
             height: 120px;
-
             display: flex;
             justify-content: center;
         }
 
-        .dest_box_card_div
-        {
+        .dest_box_card_div {
             background-color: white;
-            position: relative; /*This is goes with the absolute in the p class, it is for the text overlay */
+            position: relative;
             display: inline-block;
-            white-space: nowrap; /*No wrap will break out of container*/
+            white-space: nowrap;
             border: 2px green solid;
             border-radius: 5px;
-
             min-width: 100px;
             min-height: 100px;
-
             width: 100px;
             height: 100px;
-
-            font-family: sans-serif;
-
+            font-family: 'Lexan Era', sans-serif; /* Change the font */
             margin-left: 10px;
-
+            text-align: center; /* Center the text */
         }
-        .dest_box_card_div img
-        {
+
+        .dest_box_card_div img {
             margin: auto;
             max-width: 80%;
             max-height: 80%;
-
             display: block;
         }
-        .dest_box_card_div p
-        {
+
+        .dest_box_card_div p {
             position: absolute;
-            top: 50%;
-            right: 50%;
+            top: 10px; /* Adjust the position for the name above the image */
+            left: 0;
+            right: 0;
         }
-
     </style>
-    <!--Scripts-->
-    <script type="text/javascript">
-//window.onload = changeAdImg("main_img",main_ad_image_list);
 
-        //Main ad image array filenames
-        var main_ad_image_list = new Array(4);
-        main_ad_image_list[0] = "space1.png";
-        main_ad_image_list[1] = "space2.png";
-        main_ad_image_list[2] = "space3.png";
-        main_ad_image_list[3] = "space4.png";
-
-        main_ad_image_list[4] = "moon_test.png"
-
-        function start(){
-
-            document.getElementById("img_button_0").addEventListener('click',function(){changeAdImg("main_img",main_ad_image_list,0);});
-            document.getElementById("img_button_1").addEventListener('click',function(){changeAdImg("main_img",main_ad_image_list,1);});
-            document.getElementById("img_button_2").addEventListener('click',function(){changeAdImg("main_img",main_ad_image_list,2);});
-            document.getElementById("img_button_3").addEventListener('click',function(){changeAdImg("main_img",main_ad_image_list,3);});
-            document.getElementById("img_button_4").addEventListener('click',function(){changeAdImg("main_img",main_ad_image_list,4);});
-
-            var randImgNum = randomNum(0,main_ad_image_list.length);
-            //Randomize the image that is shown on refresh
-            changeAdImg("main_img",main_ad_image_list,randImgNum);
-            //Update radio button selection based on random img
-            document.getElementById("img_button_"+randImgNum).checked = true;
-        }
-
-        function changeAdImg(element_id,img_list,index)
-        {
-            //Change Img
-            document.getElementById(element_id).src = main_ad_image_list[index];
-        }
-        function changeAdImg2(element_id,img_list)
-        {
-            console.log("img element id: " + element_id);
-            var randNum = randomNum(0,img_list.length);
-            console.log(randNum);
-            var img_name = img_list[randNum];
-            var img_elem = document.getElementById(element_id).src = main_ad_image_list[randNum];
-            console.log(img_elem);
-        }
-
-        //Helper Functions
-        function randomNum(min,max){return Math.floor(Math.random() * (max-min) + min);}
-
-
-        //changeAdImg("main_img",main_ad_image_list);
-    </script>
-
+    <!-- Add your font import here if it's not a default web font -->
 </Head>
 
-<Body onload = "start()">
-
-    <!--Main Intro Screen with images of advertised destinations and attractions-->
-
-    <!--Main Header-->
-    <div class = "main_head_div">
-        <h1>ARC SPACE TRAVEL AGENCY</h1>
-    </div>
-    <!--Main Ad Image-->
-    <div id="main_ad_div" class="main_ad_div">
-        <img id="main_img" src="space2.png">
-    </div>
-
-    <!--Buttons for Main Intro Screen to select each image-->
-    <div id="main_button_div" class="main_button_div">
-
-        <input id="img_button_0" name = "main_img_radio" type = "radio">
-        <input id="img_button_1" name = "main_img_radio" type = "radio">
-        <input id="img_button_2" name = "main_img_radio" type = "radio">
-        <input id="img_button_3" name = "main_img_radio" type = "radio">
-        <input id="img_button_4" name = "main_img_radio" type = "radio">
-        
-
-    </div>
-
-    <div class = "top_dest_div">
-
-        <h1>Top Destinations</h1>
-    </div>
-
-    <div class = "dest_box_div">
-
-        <div class = "dest_box_card_div">Mercury
-        </div>
-        <div class = "dest_box_card_div">Venus</div>
-        <div class = "dest_box_card_div">Earth</div>
-        <div class = "dest_box_card_div">Mars</div>
-        <div class = "dest_box_card_div">
-            <p>Jupiter</p>
-            
-            <img src = "planet_icons/jupiter.png">
-        </div>
-        <div class = "dest_box_card_div">Saturn</div>
-        <div class = "dest_box_card_div">Uranus</div>
-        <div class = "dest_box_card_div">Neptune</div>
-        <div class = "dest_box_card_div">Pluto</div>
-        <div class = "dest_box_card_div">Moons</div>
-        <div class = "dest_box_card_div">Exoplanets</div>
-    </div>
-
-
+<Body onload="start()">
+    <!-- Your existing HTML content here -->
 </Body>
-
-
 </HTML>
