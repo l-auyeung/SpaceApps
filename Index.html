@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ARC SPACE TRAVEL AGENCY</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Styles -->
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Lexend Exa', sans-serif; /* Change font-family to Lexend Exa */
+        }
+
+        .main_head_div {
+            background-color: crimson;
+        }
+
+        .main_head_div h1 {
+            text-align: center;
+        }
+
+        .main_ad_div {
+            margin: auto;
+            width: 80%;
+            object-fit: contain;
+        }
+
+        .main_ad_div img {
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .main_button_div {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            width: 10%;
+            border: 1px black solid;
+        }
+
+        .main_button_div input {
+            margin: auto;
+        }
+
+        .top_dest_div {
+            text-align: center;
+        }
+
+        .dest_box_div {
+            margin: auto;
+            padding-left: 70px;
+            border: 1px black solid;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: nowrap;
+        }
+
+        .dest_box_card_div {
+            background-color: black;
+            color: white;
+            position: relative;
+            display: inline-block;
+            white-space: nowrap;
+            border: 2px green solid;
+            border-radius: 5px;
+            min-width: 100px;
+            min-height: 100px;
+            width: 100px;
+            height: 100px;
+            font-family: 'Lexend Exa', sans-serif; /* Change font-family to Lexend Exa */
+            margin-left: 10px;
+            text-align: center;
+        }
+
+        .dest_box_card_div img {
+            margin: auto;
+            max-width: 100%; /* Adjusted max-width */
+            max-height: 100%; /* Adjusted max-height */
+            display: block;
+        }
+
+        .dest_box_card_div p {
+            position: absolute;
+            bottom: -15px; /* Adjust this value for proper positioning */
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body onload="start()">
+
+    <!-- Main Intro Screen with images of advertised destinations and attractions -->
+
+    <!-- Main Header -->
+    <div class="main_head_div">
+        <h1>ARC SPACE TRAVEL AGENCY</h1>
+    </div>
+
+    <!-- Main Ad Image -->
+    <div id="main_ad_div" class="main_ad_div">
+        <img id="main_img" src="space2.png">
+    </div>
+
+    <!-- Buttons for Main Intro Screen to select each image -->
+    <div id="main_button_div" class="main_button_div">
+        <input id="img_button_0" name="main_img_radio" type="radio">
+        <input id="img_button_1" name="main_img_radio" type="radio">
+        <input id="img_button_2" name="main_img_radio" type="radio">
+        <input id="img_button_3" name="main_img_radio" type="radio">
+        <input id="img_button_4" name="main_img_radio" type="radio">
+    </div>
+
+    <div class="top_dest_div">
+        <h1>Top Destinations</h1>
+    </div>
+
+    <div class="dest_box_div">
+        <div class="dest_box_card_div">
+            <img src="planet_icons/mercury.png">
+            <p>Mercury</p>
+        </div>
+        <div class="dest_box_card_div">
+            <img src="planet_icons/venus.gif">
+            <p>Venus</p>
+        </div>
+        <div class="dest_box_card_div">
+            <img src="planet_icons/earth.png">
+            <p>Earth</p>
+        </div>
+        <div class="dest_box_card_div">
+            <img src="planet_icons/mars.png">
+            <p>Mars</p>
+        </div>
+        <div class="dest_box_card_div">
+            <img src="planet_icons/jupiter.gif"> 
+            <p>Jupiter</p>
+        </div>
+        <div class="dest_box_card_div">
+            <img src="planet_icons/saturn.png">
+            <p>Saturn</p>
+        </div>
+        <div class="dest_box_card_div">
+            <img src="planet_icons/uranus.png">
+            <p>Uranus</p>
+        </div>
+        <div class="dest_box_card_div">
+            <img src="planet_icons/neptune.gif">
+            <p>Neptune</p>
+        </div>
+        <div class="dest_box_card_div">
+            <img src="planet_icons/pluto.png">
+            <p>Pluto</p>
+        </div>
+        <div class="dest_box_card_div">
+            <img src="moon_icon.png">
+            <p>Moons</p>
+        </div>
+        <div class="dest_box_card_div">
+            <img src="exoplanet_icon.png">
+            <p>Exoplanets</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript">
+        // Your JavaScript code goes here
+    </script>
+
+</body>
+
+</html>
