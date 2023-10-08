@@ -10,23 +10,38 @@
     margin-left: 20px;
 }
 
+/* CSS for the sidebar */
 #sidebar {
-    background-color: #333;
-    color: #fff;
-    width: 200px;
+    background-color: pink;
+    color: darkorchid;
     padding: 20px;
 }
 
+/* Style the ul element as a horizontal list */
 #sidebar ul {
-    list-style: none;
+    list-style-type: none;
+    display: flex; /* Display the list items horizontally */
     padding: 0;
+    margin: 0;
 }
 
-#sidebar a {
-    color: #fff;
+/* Style the list items */
+#sidebar ul li {
+    margin-right: 20px; /* Add some spacing between list items */
+}
+
+/* Style the anchor links */
+#sidebar ul li a {
     text-decoration: none;
+    color: darkorchid;
+    font-weight: bold;
+}
+/*telling it to go in the middle*/
+#sidebar-container {
+    display: flex;
+    justify-content: center;
 }
 
-#sidebar a:hover {
-    text-decoration: underline;
+h1 {
+    text-align: center;
 }

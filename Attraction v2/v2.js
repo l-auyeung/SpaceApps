@@ -3,7 +3,25 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Define an array of planet data in JSON format
 const planets = [
+
     {
+        name: "Mercury",
+        description: "Nestled on the edge of the inner solar system, Mercury offers tourists an adventure like no other. Explore the colossal Caloris Basin, a testament to our system's violent past, and marvel at towering cliffs and deep craters!",
+        type: "Terrestrial planet with a solid surface.",
+        weather: "Mercury has extreme temperature changes! During the day, temperatures can reach 800 degrees (F) and night can drop to -290 degrees (F). Can’t decide between a warm or cool vacation? Get the best of both worlds in a single world by staying at Mercury!",
+        geologicalActivity: "Mercury has extremely low geological activity, but it is still there. It does face earthquakes as it is currently shrinking due to the rapid cooling of the planet. This shrinking, however, has created a spectacular network of cliffs and ridges, perfect for you hikers and climbers!",
+        atmosphere: "N/A",
+        moons: "N/A",
+        funFacts: [
+            "Mercury is the smallest planet in our solar system!",
+            "Mercury orbits closest to the Sun."
+        ]
+    },
+    
+    {
+
+        
+
         name: "Venus",
         description: "Prepare to be transported to a world of contrasts and extremes! Take a mesmerizing journey to the cloud-kissed highlands of Aphrodite Terra, where rocky outcrops pierce through swirling mists, and witness the mesmerizing beauty of Venus’s skies with hues never seen on Earth!",
         type: "Terrestrial planet with a solid surface.",
