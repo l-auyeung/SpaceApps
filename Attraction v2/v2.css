@@ -9,6 +9,12 @@
     list-style-type: disc;
     margin-left: 20px;
 }
+body {
+    background-color: black;
+    color: white;
+    font-family: "Lexan Era", sans-serif;
+}
+
 
 /* CSS for the sidebar */
 #sidebar {
@@ -57,7 +63,7 @@ h1 {
 #sidebar-container ul li a {
     display: block;
     background-color: transparent;
-    border: 2px solid white; /* White outline */
+    border: 2px solid white ; /* White outline */
     border-radius: 10px; /* Rounded corners */
     padding: 10px;
     text-decoration: none;

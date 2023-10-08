@@ -22,7 +22,7 @@ const planets = [
 
         
 
-        name: "<br>Venus",
+        name: "Venus",
         description: "Prepare to be transported to a world of contrasts and extremes! Take a mesmerizing journey to the cloud-kissed highlands of Aphrodite Terra, where rocky outcrops pierce through swirling mists, and witness the mesmerizing beauty of Venus’s skies with hues never seen on Earth!",
         type: "Terrestrial planet with a solid surface.",
         weather: "Venus’s weather is harsh, as it is the hottest planet in our solar system with an average temperature of 847 degrees (F)! It also has sulfuric acid rain, and lightning storms! For those of you who love rain but hate the cold, you’ll love visiting Venus!",
@@ -35,7 +35,7 @@ const planets = [
         ]
     },
     {
-        name: "<br>Moon",
+        name: "Moon",
         description: "The Moon, Earth's only natural satellite, is a celestial body that has captivated humans for centuries. Its serene, silvery glow has inspired poets, dreamers, and astronomers alike. Explore the enchanting landscapes of the Moon and discover the secrets of Earth's closest neighbor.",
         type: "Natural satellite of Earth.",
         weather: "The Moon has an extreme climate with scorching hot temperatures during the day and bone-chilling cold nights. There is no atmosphere to trap heat, so temperatures can range from over 200 degrees (F) in the sunlight to -250 degrees (F) in the shadows.",
@@ -51,7 +51,7 @@ const planets = [
     },
     
     {
-        name: "<br>Mars",
+        name: "Mars",
         description: "Mars calls out to those with a spirit of exploration. Picture yourself standing on the summit of Olympus Mons, with a horizon stretching as far as the eye can see! Traverse ancient riverbeds, where the echoes of Mars' watery past still linger. Here, you'll walk in the footsteps of rovers, forging a connection with the trailblazers who paved the way for human presence on this world!",
         type: "Terrestrial planet with a solid surface.",
         weather: "Mars has seasons, strong winds, and clouds. Its temperatures typically vary from -14 degrees (F) to -120 degrees (F).",
@@ -64,7 +64,7 @@ const planets = [
         ]
     },
     {
-        name: "<br>Jupiter",
+        name: "Jupiter",
         description: "Prepare to be humbled by the sheer scale of Jupiter, who puts the giant in gas giant! Behold the Great Red Spot, a swirling storm larger than our entire planet, and marvel at the beauty of its cloud bands. Immerse yourself in the vibrant and chaotic atmosphere, where gravity feels like a distant concept. Or, witness the dance of Jupiter's many moons, each a world unto itself!",
         type: "A Jovian gas giant with no solid surface.",
         weather: "The average temperature is -234 degrees (F). The weather of Jupiter is extreme! It consists of windstorms, lightning, and auroras in some areas. This weather can even be seen from space, in the form of colorful bands of clouds and circular storms! For example, the Great Red Spot is a giant red-colored storm on Jupiter that spans about 10,159 miles (bigger than Earth)!",
@@ -78,7 +78,7 @@ const planets = [
     },
 
     {
-        name: "<br>Saturn",
+        name: "Saturn",
         description: "Saturn, the ringed wonder of the cosmos, invites you to witness one of the most breathtaking sights our solar system has to offer. Stand high above the iconic rings, and witness their icy particles sparkling! Here, you'll experience the magic of a planet where its beauty is guaranteed to leave a mark on all who venture here!",
         type: "A Jovian gas giant with no solid surface.",
         weather: "Similar to Jupiter, Saturn has a stormy climate. It has an average temperature of -288 degrees (F).",
@@ -91,7 +91,7 @@ const planets = [
         ]
     },
     {
-        name: "<br>Uranus",
+        name: "Uranus",
         description: "Venture to the outskirts of our planetary neighborhood and discover the beauty of Uranus. Experience the surreal glow of its aquamarine atmosphere, and embark on a journey to Ariel, one of Uranus' moons, where towering ice cliffs offer a breathtaking backdrop to the distant glow of the planet. Uranus beckons with its quiet and faraway majesty, inviting you to explore the depths of our solar system!",
         type: "A Jovian gas giant with no solid surface.",
         weather: "Uranus is the coldest planet in our solar system. The average temperature is -370 degrees (F)... that’s really cold! It also is the planet with the most extreme seasons, because seasons are determined by axis tilt and Uranus is completely tilted on its side!",
@@ -104,7 +104,7 @@ const planets = [
         ]
     },
     {
-        name: "<br>Neptune",
+        name: "Neptune",
         description: "Neptune offers a voyage into a realm of vibrant mystery. Dive into the heart of its turbulent atmosphere, a canvas of swirling storms and ethereal blues! This is an expedition into a world where beauty and chaos dance in perfect harmony.",
         type: "A Jovian gas giant with no solid surface.",
         weather: "Neptune has extreme weather with huge storms and the most violent winds in the solar system. Don’t take an umbrella if you decide to visit, but a perfect place for wind gliding! Its average temperature is -353 degrees (F).",
@@ -116,7 +116,7 @@ const planets = [
         ]
     },
     {
-        name: "<br>Pluto",
+        name: "Pluto",
         description: "Journey to the distant edges of our solar system and stand on the heart-shaped plains of the largest dwarf planet in the system, Pluto! Here, the landscape tells a story of ancient forces and cosmic evolution. This is a pilgrimage to a world that embodies the very essence of our solar system's boundless wonder.",
         type: "Dwarf planet with a solid surface.",
         weather: "The average temperature of Pluto is -387 degrees (F).",
@@ -133,7 +133,7 @@ const planets = [
     
     },
     {
-        name: "<br>Sun",
+        name: "Sun",
         description: "Prepare for the ultimate celestial adventure as you journey closer to the heart of our solar system than ever before - the Sun itself. Witness the mesmerizing dance of solar flares, painting the solar system with fiery splendor. Feel the raw power of the Sun's energy, a force to not be reckoned with! This is an odyssey to the very source of light and life as we know it, and an experience that will truly be unforgettable.",
         type: "Star.",
         atmosphere: "The Sun has 3 layers within its atmosphere - the Photosphere, the Chromosphere, and the Corona. The Sun is composed of 70% hydrogen, and 28% helium.",
