@@ -112,7 +112,7 @@ const planets = [
 ];
 
 // Function to generate HTML content for a planet
-function generatePlanetHTML(planet) {
+/*function generatePlanetHTML(planet) {
     const planetHTML = `
         <h2>${planet.name}</h2>
         <p class="planet-description">${planet.description}</p>
@@ -128,6 +128,26 @@ function generatePlanetHTML(planet) {
     `;
     return planetHTML;
 }
+
+*/
+
+function generatePlanetHTML(planet) {
+    const planetHTML = `
+        <h2 id="${planet.name.toLowerCase().replace(/ /g, '-')}-anchor">${planet.name}</h2>
+        <p class="planet-description">${planet.description}</p>
+        <p><span class="planet-info">Type:</span> ${planet.type}</p>
+        <p><span class="planet-info">Weather:</span> ${planet.weather || 'N/A'}</p>
+        <p><span class="planet-info">Geological activity:</span> ${planet.geologicalActivity || 'N/A'}</p>
+        <p><span class="planet-info">Atmosphere:</span> ${planet.atmosphere || 'N/A'}</p>
+        <p><span class="planet-info">Moons:</span> ${planet.moons || 'N/A'}</p>
+        <p><span class="planet-info">Fun Facts:</span></p>
+        <ul class="fun-facts">
+            ${planet.funFacts.map(fact => `<li>${fact}</li>`).join('')}
+        </ul>
+    `;
+    return planetHTML;
+}
+
 
 // Get the container element to display planet information
 const planetInfoContainer = document.getElementById("planet-info-container");
