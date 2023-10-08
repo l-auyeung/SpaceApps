@@ -35,6 +35,22 @@ const planets = [
         ]
     },
     {
+        "name": "Moon",
+        "description": "The Moon, Earth's only natural satellite, is a celestial body that has captivated humans for centuries. Its serene, silvery glow has inspired poets, dreamers, and astronomers alike. Explore the enchanting landscapes of the Moon and discover the secrets of Earth's closest neighbor.",
+        "type": "Natural satellite of Earth.",
+        "weather": "The Moon has an extreme climate with scorching hot temperatures during the day and bone-chilling cold nights. There is no atmosphere to trap heat, so temperatures can range from over 200 degrees (F) in the sunlight to -250 degrees (F) in the shadows.",
+        "geologicalActivity": "While the Moon is no longer geologically active, it bears the scars of a tumultuous past. Ancient impact craters, vast plains, and towering mountain ranges tell the story of a celestial body shaped by eons of cosmic collisions.",
+        "atmosphere": "The Moon has no significant atmosphere. It is a vacuum, devoid of air and weather.",
+        "moons": "N/A",
+        "funFacts": [
+            "The Moon is approximately 1/6th the size of Earth.",
+            "It takes about 27.3 days for the Moon to orbit Earth and complete one lunar cycle.",
+            "The Moon's gravitational pull influences Earth's tides.",
+            "The Moon has been the subject of human exploration and landing, with several manned missions, including the historic Apollo program."
+        ]
+    },
+    
+    {
         name: "Mars",
         description: "Mars calls out to those with a spirit of exploration. Picture yourself standing on the summit of Olympus Mons, with a horizon stretching as far as the eye can see! Traverse ancient riverbeds, where the echoes of Mars' watery past still linger. Here, you'll walk in the footsteps of rovers, forging a connection with the trailblazers who paved the way for human presence on this world!",
         type: "Terrestrial planet with a solid surface.",
