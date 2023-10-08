@@ -1,0 +1,37 @@
+p
+{
+    padding-left: 2%;
+}
+
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling to the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
