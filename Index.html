@@ -210,7 +210,7 @@
             //changeAdImg("main_img",main_ad_image_list);
 
 //Merge of Matt's javascript code
-        var planetInfo = {
+var planetInfo = {
             Mercury: {
                 name: "Mercury",
                 description: "Mercury is the closest planet to the Sun and has a rocky surface.",
@@ -218,6 +218,9 @@
                 type: "Terrestrial",
                 mass: "0.33 × 10^24 kg",
                 distance: "0.52 AU / 77.3 million km from Earth",
+                weather: "During the day, temperatures can reach 800 degrees (F) and night can drop to -290 degrees (F).",
+                atmosphere: "None",
+
             },
             Venus: {
                 name: "Venus",
@@ -226,6 +229,8 @@
                 type: "Terrestrial",
                 mass: "4.87 × 10^24 kg",
                 distance: "0.26 AU / 38.2 million km from Earth",
+                weather: "Venus’s weather is harsh, as it is the hottest planet in our solar system with an average temperature of 847 degrees (F)",
+                atmosphere: "96% carbon dioxide, 3.5% hydrogen. There are also trace amounts of carbon monoxide, sulfur dioxide, water vapor, argon, and helium.",
             },
             Earth: {
                 name: "Earth",
@@ -234,6 +239,8 @@
                 type: "Terrestrial",
                 mass: "5.97 × 10^24 kg",
                 distance: "0 km from itself (0 AU)",
+                weather: "Varies",
+                atmosphere: "78.08% nitrogen, 20.95% oxygen, and 0.93% argon."
             },
             Moon: {
                 name:"Luna",
@@ -242,6 +249,8 @@
                 type: "Moon",
                 mass: "0.07346 × 10^22 kilograms",
                 distance: "0.0027 AU / 384 400 km from Earth",
+                weather: "60 degrees (F) when in full Sun, but in darkness, the temperatures plummet to about -280 degrees (F)",
+                atmosphere: "None",
             },
             Mars: {
                 name: "Mars",
@@ -250,6 +259,8 @@
                 type: "Terrestrial",
                 mass: "0.073 × 10^24 kg",
                 distance: "0.67 AU / 99.4 million km from Earth",
+                weather: "Mars temperatures typically vary from -14 degrees (F) to -120 degrees (F)",
+                atmosphere: "95% carbon dioxide, 3% nitrogen, 1.6% argon. It includes trace amounts of oxygen, carbon monoxide, water, and methane.",
             },
             Jupiter: {
                 name: "Jupiter",
@@ -258,6 +269,8 @@
                 type: "Jovian / Gas Giant / Ringed",
                 mass: "1898 × 10^24 kg",
                 distance: "4.41 AU / 658.1 million km from Earth",
+                weather: "The average temperature is -234 degrees (F). The weather of Jupiter is extreme! It consists of windstorms, lightning, and auroras in some areas.",
+                atmosphere: "90% hydrogen, 10% helium. A very small fraction of the atmosphere is made up of compounds such as ammonia, sulfur, methane, and water vapor.",
             },
             Saturn: {
                 name: "Saturn",
@@ -266,6 +279,8 @@
                 type: "Jovian / Gas Giant / Ringed",
                 mass: "568 × 10^24 kg",
                 distance: "9.02 AU / 1.3 billion km from Earth",
+                weather: "Similar to Jupiter, Saturn has a stormy climate. It has an average temperature of -288 degrees (F).",
+                atmosphere: "75% hydrogen, 25% helium. It contains trace amounts of methane and water ice.",
             },
             Uranus: {
                 name: "Uranus",
@@ -274,6 +289,8 @@
                 type: "Jovian / Gas Giant / Ringed",
                 mass: "86.8 × 10^24 kg",
                 distance: "19.03 AU / 2.8 billion km from Earth",
+                weather: "Uranus is the coldest planet in our solar system. The average temperature is -370 degrees (F)",
+                atmosphere: "83% hydrogen, 15% helium, 2% methane.",
             },
             Neptune: {
                 name: "Neptune",
@@ -282,6 +299,8 @@
                 type: "Jovian / Gas Giant / Ringed",
                 mass: "102 × 10^24 kg",
                 distance: "28.95 AU / 4.3 billion km from Earth",
+                weather: "Don’t take an umbrella if you decide to visit, but a perfect place for wind gliding! Its average temperature is -353 degrees (F).",
+                atmosphere: "80% hydrogen, 19% helium, 2% methane.",
             },
             Pluto: {
                 name: "Pluto",
@@ -290,6 +309,8 @@
                 type: "Dwarf planet",
                 mass: "0.013 × 10^24 kg",
                 distance: "39.62 AU / 5.9 billion km from Earth",
+                weather: "The average temperature of Pluto is -387 degrees (F). ",
+                atmosphere: "90% nitrogen, 10% methane. Contains trace amounts of carbon monoxide.",
             },
         };
 
@@ -304,7 +325,7 @@
             var planet = planetInfo[planetName];
 
             if (planet) {
-                textBox.innerHTML = `Description: ${planet.name}, ${planet.type}<br>Distance: ${planet.distance}<br>Mass: ${planet.mass}<br>${planet.description}`;
+                textBox.innerHTML = `Description: ${planet.name}, ${planet.type}<br>Distance: ${planet.distance}<br>Mass: ${planet.mass}<br>${planet.description}<br><br>Weather: ${planet.weather}<br><br>Atmosphere: ${planet.atmosphere}`;
             } else {
                 textBox.textContent = "Planet information not available.";
             }
