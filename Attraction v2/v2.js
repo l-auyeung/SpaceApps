@@ -167,15 +167,15 @@ const planets = [
 
 function generatePlanetHTML(planet) {
     const planetHTML = `
-        <h2 id="${planet.name.toLowerCase().replace(/ /g, '-')}-anchor">${planet.name}</h2>
-        <p class="planet-description">${planet.description}</p>
-        <p><span class="planet-info">Type:</span> ${planet.type}</p>
-        <p><span class="planet-info">Weather:</span> ${planet.weather || 'N/A'}</p>
-        <p><span class="planet-info">Geological activity:</span> ${planet.geologicalActivity || 'N/A'}</p>
-        <p><span class="planet-info">Atmosphere:</span> ${planet.atmosphere || 'N/A'}</p>
-        <p><span class="planet-info">Moons:</span> ${planet.moons || 'N/A'}</p>
-        <p><span class="planet-info">Fun Facts:</span></p>
-        <ul class="fun-facts">
+        <h2 id="${planet.name.toLowerCase().replace(/ /g, '-')}-anchor" style="color: white">${planet.name}</h2>
+        <p class="planet-description" style="color: white">${planet.description}</p>
+        <p><span class="planet-info" style="color: white">Type:</span> ${planet.type}</p>
+        <p><span class="planet-info" style="color: white">Weather:</span> ${planet.weather || 'N/A'}</p>
+        <p><span class="planet-info" style="color: white">Geological activity:</span> ${planet.geologicalActivity || 'N/A'}</p>
+        <p><span class="planet-info" style="color: white">Atmosphere:</span> ${planet.atmosphere || 'N/A'}</p>
+        <p><span class="planet-info" style="color: white">Moons:</span> ${planet.moons || 'N/A'}</p>
+        <p><span class="planet-info" style="color: white">Fun Facts:</span></p>
+        <ul class="fun-facts" style="color: white">
             ${planet.funFacts.map(fact => `<li>${fact}</li>`).join('')}
         </ul>
     `;
@@ -183,14 +183,10 @@ function generatePlanetHTML(planet) {
 }
 
 
-// Get the container element to display planet information
 const planetInfoContainer = document.getElementById("planet-info-container");
 
-// Loop through the planets and generate HTML content for each one
 planets.forEach(planet => {
     const planetHTML = generatePlanetHTML(planet);
     planetInfoContainer.innerHTML += planetHTML;
 });
-
 });
-
