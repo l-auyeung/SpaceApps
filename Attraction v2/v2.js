@@ -14,7 +14,7 @@ const planets = [
         moons: "N/A",
         funFacts: [
             "Mercury is the smallest planet in our solar system!",
-            "Mercury orbits closest to the Sun."
+            "Mercury orbits closest to the Sun."    
         ]
     },
     
@@ -22,7 +22,7 @@ const planets = [
 
         
 
-        name: "Venus",
+        name: "<br>Venus",
         description: "Prepare to be transported to a world of contrasts and extremes! Take a mesmerizing journey to the cloud-kissed highlands of Aphrodite Terra, where rocky outcrops pierce through swirling mists, and witness the mesmerizing beauty of Venus’s skies with hues never seen on Earth!",
         type: "Terrestrial planet with a solid surface.",
         weather: "Venus’s weather is harsh, as it is the hottest planet in our solar system with an average temperature of 847 degrees (F)! It also has sulfuric acid rain, and lightning storms! For those of you who love rain but hate the cold, you’ll love visiting Venus!",
@@ -35,14 +35,14 @@ const planets = [
         ]
     },
     {
-        "name": "Moon",
-        "description": "The Moon, Earth's only natural satellite, is a celestial body that has captivated humans for centuries. Its serene, silvery glow has inspired poets, dreamers, and astronomers alike. Explore the enchanting landscapes of the Moon and discover the secrets of Earth's closest neighbor.",
-        "type": "Natural satellite of Earth.",
-        "weather": "The Moon has an extreme climate with scorching hot temperatures during the day and bone-chilling cold nights. There is no atmosphere to trap heat, so temperatures can range from over 200 degrees (F) in the sunlight to -250 degrees (F) in the shadows.",
-        "geologicalActivity": "While the Moon is no longer geologically active, it bears the scars of a tumultuous past. Ancient impact craters, vast plains, and towering mountain ranges tell the story of a celestial body shaped by eons of cosmic collisions.",
-        "atmosphere": "The Moon has no significant atmosphere. It is a vacuum, devoid of air and weather.",
-        "moons": "N/A",
-        "funFacts": [
+        name: "<br>Moon",
+        description: "The Moon, Earth's only natural satellite, is a celestial body that has captivated humans for centuries. Its serene, silvery glow has inspired poets, dreamers, and astronomers alike. Explore the enchanting landscapes of the Moon and discover the secrets of Earth's closest neighbor.",
+        type: "Natural satellite of Earth.",
+        weather: "The Moon has an extreme climate with scorching hot temperatures during the day and bone-chilling cold nights. There is no atmosphere to trap heat, so temperatures can range from over 200 degrees (F) in the sunlight to -250 degrees (F) in the shadows.",
+        geologicalActivity: "While the Moon is no longer geologically active, it bears the scars of a tumultuous past. Ancient impact craters, vast plains, and towering mountain ranges tell the story of a celestial body shaped by eons of cosmic collisions.",
+        atmosphere: "The Moon has no significant atmosphere. It is a vacuum, devoid of air and weather.",
+        moons: "N/A",
+        funFacts: [
             "The Moon is approximately 1/6th the size of Earth.",
             "It takes about 27.3 days for the Moon to orbit Earth and complete one lunar cycle.",
             "The Moon's gravitational pull influences Earth's tides.",
@@ -51,7 +51,7 @@ const planets = [
     },
     
     {
-        name: "Mars",
+        name: "<br>Mars",
         description: "Mars calls out to those with a spirit of exploration. Picture yourself standing on the summit of Olympus Mons, with a horizon stretching as far as the eye can see! Traverse ancient riverbeds, where the echoes of Mars' watery past still linger. Here, you'll walk in the footsteps of rovers, forging a connection with the trailblazers who paved the way for human presence on this world!",
         type: "Terrestrial planet with a solid surface.",
         weather: "Mars has seasons, strong winds, and clouds. Its temperatures typically vary from -14 degrees (F) to -120 degrees (F).",
@@ -64,7 +64,7 @@ const planets = [
         ]
     },
     {
-        name: "Jupiter",
+        name: "<br>Jupiter",
         description: "Prepare to be humbled by the sheer scale of Jupiter, who puts the giant in gas giant! Behold the Great Red Spot, a swirling storm larger than our entire planet, and marvel at the beauty of its cloud bands. Immerse yourself in the vibrant and chaotic atmosphere, where gravity feels like a distant concept. Or, witness the dance of Jupiter's many moons, each a world unto itself!",
         type: "A Jovian gas giant with no solid surface.",
         weather: "The average temperature is -234 degrees (F). The weather of Jupiter is extreme! It consists of windstorms, lightning, and auroras in some areas. This weather can even be seen from space, in the form of colorful bands of clouds and circular storms! For example, the Great Red Spot is a giant red-colored storm on Jupiter that spans about 10,159 miles (bigger than Earth)!",
@@ -78,7 +78,7 @@ const planets = [
     },
 
     {
-        name: "Saturn",
+        name: "<br>Saturn",
         description: "Saturn, the ringed wonder of the cosmos, invites you to witness one of the most breathtaking sights our solar system has to offer. Stand high above the iconic rings, and witness their icy particles sparkling! Here, you'll experience the magic of a planet where its beauty is guaranteed to leave a mark on all who venture here!",
         type: "A Jovian gas giant with no solid surface.",
         weather: "Similar to Jupiter, Saturn has a stormy climate. It has an average temperature of -288 degrees (F).",
@@ -91,7 +91,7 @@ const planets = [
         ]
     },
     {
-        name: "Uranus",
+        name: "<br>Uranus",
         description: "Venture to the outskirts of our planetary neighborhood and discover the beauty of Uranus. Experience the surreal glow of its aquamarine atmosphere, and embark on a journey to Ariel, one of Uranus' moons, where towering ice cliffs offer a breathtaking backdrop to the distant glow of the planet. Uranus beckons with its quiet and faraway majesty, inviting you to explore the depths of our solar system!",
         type: "A Jovian gas giant with no solid surface.",
         weather: "Uranus is the coldest planet in our solar system. The average temperature is -370 degrees (F)... that’s really cold! It also is the planet with the most extreme seasons, because seasons are determined by axis tilt and Uranus is completely tilted on its side!",
@@ -104,7 +104,7 @@ const planets = [
         ]
     },
     {
-        name: "Neptune",
+        name: "<br>Neptune",
         description: "Neptune offers a voyage into a realm of vibrant mystery. Dive into the heart of its turbulent atmosphere, a canvas of swirling storms and ethereal blues! This is an expedition into a world where beauty and chaos dance in perfect harmony.",
         type: "A Jovian gas giant with no solid surface.",
         weather: "Neptune has extreme weather with huge storms and the most violent winds in the solar system. Don’t take an umbrella if you decide to visit, but a perfect place for wind gliding! Its average temperature is -353 degrees (F).",
@@ -116,7 +116,7 @@ const planets = [
         ]
     },
     {
-        name: "Pluto",
+        name: "<br>Pluto",
         description: "Journey to the distant edges of our solar system and stand on the heart-shaped plains of the largest dwarf planet in the system, Pluto! Here, the landscape tells a story of ancient forces and cosmic evolution. This is a pilgrimage to a world that embodies the very essence of our solar system's boundless wonder.",
         type: "Dwarf planet with a solid surface.",
         weather: "The average temperature of Pluto is -387 degrees (F).",
@@ -133,7 +133,7 @@ const planets = [
     
     },
     {
-        name: "Sun",
+        name: "<br>Sun",
         description: "Prepare for the ultimate celestial adventure as you journey closer to the heart of our solar system than ever before - the Sun itself. Witness the mesmerizing dance of solar flares, painting the solar system with fiery splendor. Feel the raw power of the Sun's energy, a force to not be reckoned with! This is an odyssey to the very source of light and life as we know it, and an experience that will truly be unforgettable.",
         type: "Star.",
         atmosphere: "The Sun has 3 layers within its atmosphere - the Photosphere, the Chromosphere, and the Corona. The Sun is composed of 70% hydrogen, and 28% helium.",
@@ -167,15 +167,15 @@ const planets = [
 
 function generatePlanetHTML(planet) {
     const planetHTML = `
-        <h2 id="${planet.name.toLowerCase().replace(/ /g, '-')}-anchor" style="color: white">${planet.name}</h2>
-        <p class="planet-description" style="color: white">${planet.description}</p>
-        <p><span class="planet-info" style="color: white">Type:</span> ${planet.type}</p>
-        <p><span class="planet-info" style="color: white">Weather:</span> ${planet.weather || 'N/A'}</p>
-        <p><span class="planet-info" style="color: white">Geological activity:</span> ${planet.geologicalActivity || 'N/A'}</p>
-        <p><span class="planet-info" style="color: white">Atmosphere:</span> ${planet.atmosphere || 'N/A'}</p>
-        <p><span class="planet-info" style="color: white">Moons:</span> ${planet.moons || 'N/A'}</p>
-        <p><span class="planet-info" style="color: white">Fun Facts:</span></p>
-        <ul class="fun-facts" style="color: white">
+        <h2 id="${planet.name.toLowerCase().replace(/ /g, '-')}-anchor">${planet.name}</h2>
+        <p class="planet-description">${planet.description}</p>
+        <p><span class="planet-info">Type:</span> ${planet.type}</p>
+        <p><span class="planet-info">Weather:</span> ${planet.weather || 'N/A'}</p>
+        <p><span class="planet-info">Geological activity:</span> ${planet.geologicalActivity || 'N/A'}</p>
+        <p><span class="planet-info">Atmosphere:</span> ${planet.atmosphere || 'N/A'}</p>
+        <p><span class="planet-info">Moons:</span> ${planet.moons || 'N/A'}</p>
+        <p><span class="planet-info">Fun Facts:</span></p>
+        <ul class="fun-facts">
             ${planet.funFacts.map(fact => `<li>${fact}</li>`).join('')}
         </ul>
     `;
@@ -183,10 +183,13 @@ function generatePlanetHTML(planet) {
 }
 
 
+// Get the container element to display planet information
 const planetInfoContainer = document.getElementById("planet-info-container");
 
+// Loop through the planets and generate HTML content for each one
 planets.forEach(planet => {
     const planetHTML = generatePlanetHTML(planet);
     planetInfoContainer.innerHTML += planetHTML;
 });
+
 });

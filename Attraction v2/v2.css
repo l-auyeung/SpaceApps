@@ -8,13 +8,12 @@
 .fun-facts {
     list-style-type: disc;
     margin-left: 20px;
-    color: white
 }
 
 /* CSS for the sidebar */
 #sidebar {
-    background-color: pink;
-    color: rgb(255, 255, 255);
+    background-color: black;
+    color: pink;
     padding: 20px;
 }
 
@@ -34,7 +33,7 @@
 /* Style the anchor links */
 #sidebar ul li a {
     text-decoration: none;
-    color: darkorchid;
+    color: white;
     font-weight: bold;
 }
 /*telling it to go in the middle*/
@@ -45,10 +44,28 @@
 
 h1 {
     text-align: center;
-    color: white;
+}
+#sidebar-container ul {
+    list-style: none;
+    padding: 0;
 }
 
-p
-{
+#sidebar-container ul li {
+    margin: 10px 0;
+}
+
+#sidebar-container ul li a {
+    display: block;
+    background-color: transparent;
+    border: 2px solid white; /* White outline */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px;
+    text-decoration: none;
     color: white;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+#sidebar-container ul li a:hover {
+    background-color: white;
+    color: black; /* Change text color on hover */
 }
